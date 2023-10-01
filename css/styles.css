@@ -110,7 +110,7 @@ body {
     background-color: #404BBF;
 }
 .third.html{
-    background-color: var(--CLOUD,#F4F4FD);
+    background-color: rgba(244, 244, 253, 1);
 }
 .list{
     list-style: none;
