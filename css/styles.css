@@ -1,7 +1,7 @@
 :root {
     font-family: Roboto, sans-serif;
     color: rgba(67, 68, 85, 1);
-    background-color: #FFFFFF;
+    background: var(--WHITE, #FFFFFF);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -74,6 +74,9 @@
 .top-html{
     background-color: var(--NAVY-BLUE, #2E2F42);
 }
+.top-html:focus{
+    background-color: var(--OCEAN, #404BBF);
+}
 .top-heading {
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -104,14 +107,14 @@
     background-color: #404BBF;
 }
 .third.html{
-    background: var(--CLOUD, #F4F4FD);
+    background-color: var(--CLOUD, #F4F4FD);
 }
 .list{
     list-style: none;
     background: var(--WHITE, #FFF);
 }
 .images-list{
-    background-color: var(--CLOUD );
+    background: var(--WHITE, #FFF);
 }
 
 
