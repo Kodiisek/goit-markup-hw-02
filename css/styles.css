@@ -1,39 +1,86 @@
-body {
-    font-family: system-ui, -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue',
-    sans-serif, sans-serif;
+:root {
+    font-family: Roboto, sans-serif;
     color: rgba(67, 68, 85, 1);
+    background-color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.32px;
     line-height: 150%;
-        
 }
-
-span {
+.link {
+    text-decoration: none;
+    color: var(--SLATE, #434455);
+}
+.link:hover{
+    color: var(--SLATE, #434455);
+}
+.link:focus {
+    color: var(--SLATE, #434455);
+}
+.address{
+    font-style: normal;
+}
+.nav-logo{
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
-        line-height: 116.667%;
-        
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.interactive-heading {
+.nav-span{
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
-        line-height: 116.667%;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-a {
-    text-decoration: none;
+.top-html{
+    background-color: var(--NAVY-BLUE, #2E2F42);
+}
+.top-heading {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+.order-button {
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.order-button:hover {
+    color: var(--OCEAN, #404BBF);
+    background-color: #404bbf;
+    cursor: pointer;
+
+}
+.order-button:active {
+    color: var(--OCEAN, #404BBF);
+    background-color: #404BBF;
+}
+.third.html{
+    background-color: var(--CLOUD, #F4F4FD);
+}
+.list{
+    list-style: none;
+}
+.images-list{
+    background-color: var(--CLOUD );
 }
 .pages {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -57,21 +104,6 @@ a {
 .contacts:focus{
    color: var(--OCEAN, #404BBF);
 }
-.order-button{
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: var(--WHITE, #FFF);
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 150%;
-        letter-spacing: 0.64px;
-}
-.interactive:hover{
-    cursor: pointer;
-}
-
 .buttons{
     border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -97,46 +129,84 @@ a {
         letter-spacing: 0.64px;
         cursor: pointer;
 }
-.footer-text{
-    color: var(--CLOUD, #F4F4FD);
+.buttons:focus{
+    border-radius: 4px;
+        background: var(--OCEAN, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        color: var(--WHITE, #FFF);
+        text-align: center;
         font-family: Roboto, sans-serif;
         font-size: 16px;
+        font-weight: 500;
         line-height: 150%;
-        letter-spacing: 0.32px;
-        background-color: var(--NAVY-BLUE, #2E2F42);
+        letter-spacing: 0.64px;
+        cursor: pointer;
 }
+
 .second-heading{
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
-        font-family: Roboto sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 111.111%; 
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.top-heading{
-    color: var(--WHITE, #FFF);
-        text-align: center;
-        font-family: Roboto sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 107.143%;
-        letter-spacing: 1.12px;
-        background-color: var(--NAVY-BLUE, #2E2F42);
-}
 .third-header{
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 20px;
         font-weight: 500;
         line-height: 120%;
         letter-spacing: 0.4px;
 }
-.third-p{
-    color: var(--SLATE, #434455);
-        font-family: Roboto sans-serif;
+.paragraph{
         font-size: 16px;
-        line-height: 150%;
+}
+.portfolio-second-heading{
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.paragraph-link-portfolio{
+    color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
         letter-spacing: 0.32px;
+}
+.footer{
+background: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-logo{
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.footer-span{
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+    
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    background-color: var(--NAVY-BLUE, #2E2F42);
 }
