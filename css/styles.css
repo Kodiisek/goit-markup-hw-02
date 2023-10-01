@@ -127,7 +127,7 @@ body {
 }
 
 .third.html {
-    background-color:  #F4F4FD;
+    background-color: var(--CLOUD, #F4F4FD);
 }
 
 .list {
