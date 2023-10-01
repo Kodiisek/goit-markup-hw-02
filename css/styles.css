@@ -1,7 +1,7 @@
 :root {
     font-family: Roboto, sans-serif;
     color: rgba(67, 68, 85, 1);
-    background-color: var(--WHITE, #FFFFFF);
+    background-color:  #FFFFFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +107,7 @@
     background-color: #404BBF;
 }
 .third.html{
-    background-color: var(--CLOUD, #F4F4FD);
+    background-color: #F4F4FD;
 }
 .list{
     list-style: none;
