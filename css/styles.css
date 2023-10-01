@@ -1,7 +1,7 @@
 :root {
     font-family: Roboto, sans-serif;
     color: rgba(67, 68, 85, 1);
-    background-color: var(--WHITE, #FFF);
+    background-color: var(--WHITE, #FFFFFF);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
